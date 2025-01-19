@@ -12,32 +12,26 @@
 
         <!-- Logo -->
         <FrameLayout
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_marginTop="42dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/textView"
-            android:layout_marginBottom="16dp"
-            app:layout_constraintVertical_bias="0.069">
+            android:layout_marginBottom="16dp">
 
-            <!-- พื้นหลังวงกลม -->
+            <!-- Background Circle -->
             <View
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/circle_background" />
 
-            <!-- โลโก้ -->
+            <!-- Logo -->
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_gravity="center"
                 android:src="@drawable/i__android"
                 android:contentDescription="The Logo" />
         </FrameLayout>
-
 
         <!-- Email Input -->
         <EditText
@@ -116,7 +110,6 @@
         </LinearLayout>
 
         <!-- Sign Up -->
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -124,16 +117,13 @@
             android:textColor="#A3A3A3"
             android:layout_marginTop="40dp" />
 
+        <!-- Back to Main -->
         <Button
             android:id="@+id/loginBackToMainBtn"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="16dp"
             android:text="Back to Main" />
-
 
     </LinearLayout>
 </ScrollView>

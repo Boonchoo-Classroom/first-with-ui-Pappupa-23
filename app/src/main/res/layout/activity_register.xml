@@ -8,14 +8,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
+        <!-- Back Button -->
         <ImageView
             android:id="@+id/btnBack"
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:src="@drawable/ic_back"
-        android:contentDescription="Back"
-        android:layout_gravity="start"
-        android:layout_marginBottom="16dp" />
+            android:contentDescription="Back"
+            android:layout_gravity="start"
+            android:layout_marginBottom="16dp" />
 
         <!-- Title -->
         <TextView
@@ -99,23 +101,25 @@
             android:background="#EFEFEF"
             android:text="SIGN UP"
             android:textColor="#000000" />
-
         <!-- Login Link -->
         <TextView
-            android:layout_width="match_parent"
+            android:id="@+id/tvLogin"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
             android:text="Already have an account? Login"
             android:textColor="#A5A5B4" />
 
         <!-- Back to Main Button -->
-
         <Button
             android:id="@+id/registBackToMainBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="130dp"
+            android:layout_gravity="center_horizontal"
             android:layout_marginTop="16dp"
-            android:text="Back to Main" />
+            android:text="Back to Main"
+            android:backgroundTint="#EFEFEF"
+            android:textColor="#000000" />
     </LinearLayout>
 </ScrollView>
