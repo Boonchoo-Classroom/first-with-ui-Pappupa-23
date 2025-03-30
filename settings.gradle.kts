@@ -19,5 +19,18 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "First UI Assignment"
+rootProject.name = "MyBookLibrary"
 include(":app")
+
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
