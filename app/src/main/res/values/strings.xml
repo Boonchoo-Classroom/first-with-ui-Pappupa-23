@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Book Storage</string>
+    <string name="error_message">Please check &amp; try again</string>
+</resources>
